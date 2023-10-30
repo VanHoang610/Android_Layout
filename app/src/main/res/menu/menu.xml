@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mThu"
+        android:title="Khoản Thu"
+        android:icon="@drawable/thu"/>
+    <item
+        android:id="@+id/mChi"
+        android:title="Khoản Chi"
+        android:icon="@drawable/chi"/>
+    <item
+        android:id="@+id/mThongKe"
+        android:title="Thống kê"
+        android:icon="@drawable/thongke"/>
+    <item
+        android:id="@+id/mRong"
+        android:title="">
+        <menu>
+            <item
+                android:id="@+id/gioiThieu"
+                android:icon="@drawable/ic_baseline_pie_chart_24"
+                android:title="Giới thiệu"/>
+            <item
+                android:id="@+id/thoat"
+                android:icon="@drawable/out"
+                android:title="Đăng xuất"/>
+        </menu>
+    </item>
+</menu>
